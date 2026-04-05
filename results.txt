@@ -1,21 +1,32 @@
-playerid	birthyear	birthmonth	birthday	birthcountry	birthstate	birthcity	deathyear	deathmonth	deathday	deathcountry	deathstate	deathcity	namefirst	namelast	namegiven	weight	height	bats	throws	debut	finalgame	retroid	bbrefid	birth_date	debut_date	finalgame_date	death_date	
-barre01	null	null	null	USA	NY	Brooklyn	null	null	null	null	null	null	John	Barrett	John	null	null	null	null	1872-09-18	1872-10-31	barru101	barre01	null	1872-09-18	1872-10-31	null	
-barrebi01	null	null	null	USA	MD	Baltimore	null	null	null	null	null	null	Bill	Barrett	William	null	null	null	null	1871-07-08	1873-10-18	barrb102	barrebi01	null	1871-07-08	1873-10-18	null	
-barloto01	1852	null	null	USA	NY	null	null	null	null	null	null	null	Tom	Barlow	Thomas H.	null	null	null	null	1872-05-02	1875-07-30	barlt101	barloto01	null	1872-05-02	1875-07-30	null	
-banckst01	1853	null	null	USA	PA	Philadelphia	1888	10	7	USA	PA	Philadelphia	Studs	Bancker	John V.	null	null	null	null	1875-04-19	1875-06-05	bancs101	banckst01	null	1875-04-19	1875-06-05	1888-10-07	
-bancrfr99	1846	5	9	USA	MA	Lancaster	1921	3	30	USA	OH	Cincinnati	Frank	Bancroft	Frank Carter	null	null	null	null	null	null	bancf801	bancrfr99	1846-05-09	null	null	1921-03-30	
-atkined01	1851	null	null	USA	MD	Baltimore	null	null	null	null	null	null	Ed	Atkinson	Edward	null	null	null	null	1873-10-22	1873-10-23	atkie101	atkined01	null	1873-10-22	1873-10-23	null	
-bakerno01	1862	10	14	USA	PA	Philadelphia	1949	2	20	USA	NJ	Hurffville	Norm	Baker	Norman Leslie	null	null	null	null	1883-05-21	1890-08-30	baken101	bakerno01	1862-10-14	1883-05-21	1890-08-30	1949-02-20	
-armoubi99	1869	9	3	USA	PA	Homestead	1922	12	2	USA	MN	Minneapolis	Bill	Armour	William Reginald	null	null	null	null	null	null	armob801	armoubi99	1869-09-03	null	null	1922-12-02	
-allisbi01	1850	7	16	USA	NY	New York	1887	1	25	USA	NY	Brooklyn	Bill	Allison	William	null	null	null	null	1872-05-21	1872-07-04	allib102	allisbi01	1850-07-16	1872-05-21	1872-07-04	1887-01-25	
-adkinhe01	1874	1	19	USA	MO	Fulton	1953	1	2	USA	MO	Mexico	Harry	Atkinson	John Harry	null	null	null	null	1895-09-25	1895-09-25	adkih101	adkinhe01	1874-01-19	1895-09-25	1895-09-25	1953-01-02	
-austihe01	1844	10	null	USA	NY	null	1904	11	2	USA	NY	Amityville	Henry	Austin	Henry C.	null	null	null	null	1873-04-28	1873-08-07	austh101	austihe01	null	1873-04-28	1873-08-07	1904-11-02	
-arnolbi01	1851	3	2	USA	CT	Middletown	1899	1	18	USA	NY	Albany	Billy	Arnold	Willis S.	null	null	null	null	1872-04-26	1872-05-02	arnob101	arnolbi01	1851-03-02	1872-04-26	1872-05-02	1899-01-18	
-anderda01	1868	10	10	USA	PA	Chester	1897	3	22	USA	PA	Chester	Dave	Anderson	David S.	null	null	null	L	1889-08-24	1890-09-29	anded102	anderda01	1868-10-10	1889-08-24	1890-09-29	1897-03-22	
-asmusto01	1878	9	26	USA	IL	Chicago	1963	8	21	USA	IL	Arlington Heights	Tom	Asmussen	Thomas William	null	71	null	R	1907-08-10	1907-08-19	asmut101	asmusto01	1878-09-26	1907-08-10	1907-08-19	1963-08-21	
-ahearch01	1858	null	null	USA	NY	Troy	1919	4	28	USA	NY	Troy	Bill	Ahearn	William H.	null	null	null	null	1880-06-19	1880-06-19	aheac101	ahearch01	null	1880-06-19	1880-06-19	1919-04-28	
-abercda01	1850	1	2	USA	OK	Fort Towson	1939	11	11	USA	PA	Philadelphia	Frank	Abercrombie	Francis Patterson	null	null	null	null	1871-10-21	1871-10-21	aberd101	abercda01	1850-01-02	1871-10-21	1871-10-21	1939-11-11	
-andergo01	1880	1	13	USA	OH	Cleveland	1923	3	15	USA	IN	South Bend	Goat	Anderson	Edward John	null	null	L	R	1907-04-11	1907-10-06	andeg101	andergo01	1880-01-13	1907-04-11	1907-10-06	1923-03-15	
-andreji01	1865	6	5	USA	MA	Shelburne Falls	1907	12	27	USA	IL	Chicago	Jim	Andrews	James Pratt	null	null	null	null	1890-04-19	1890-07-04	andrj103	andreji01	1865-06-05	1890-04-19	1890-07-04	1907-12-27	
-allenha01	1846	4	20	USA	ME	Augusta	1881	2	6	USA	MA	Natick	Ham	Allen	Frank Erwin	null	64	null	null	1872-04-27	1872-08-09	alleh102	allenha01	1846-04-20	1872-04-27	1872-08-09	1881-02-06	
-barroed99	1868	5	10	USA	IL	Springfield	1953	12	15	USA	NY	Port Chester	Ed	Barrow	Edward Grant	null	null	null	null	null	null	barre801	barroed99	1868-05-10	null	null	1953-12-15	
+--- Part 3 Query 1 ---
+teamname	            year	weight	
+Chicago White Sox	    2009	221.33	
+Chicago White Sox	    2014	220.91	
+Chicago White Sox	    2008	219.74	
+Philadelphia Quakers	2015	219.38	
+Philadelphia Blue Jays	2015	219.38	
+
+--- Part 3 Query 2 ---
+teamname	                year	weight	
+Middletown Mansfields	    1872	66.57	
+St. Louis Brown Stockings	1877	67.25	
+St. Louis Brown Stockings	1876	67.25	
+Indianapolis Blues	        1878	67.27	
+Washington Olympics	        1872	67.45	
+
+--- Part 3 Query 3 ---
+team_name	        wins	total_salary	salary_per_win	
+San Diego Padres	90	    37799300	    419992.22	
+Pittsburgh Pirates	57	    34943000	    613035.09	
+Texas Rangers	    90	    55250544	    613894.93	
+Oakland Athletics	81	    55254900	    682159.26	
+Florida Marlins	    80	    57029719	    712871.49	
+
+--- Part 3 Query 4 ---
+first_name	last_name	year	games_started	salary	    salary_per_start	
+Cliff	    Lee	        2014	13	            25000000	1923076.92	
+James	    Shields	    2016	11	            21000000	1909090.91	
+Matt	    Cain	    2015	11	            21000000	1909090.91	
+Kevin	    Brown	    2002	10	            15714286	1571428.60	
+Clayton	    Kershaw	    2016	21	            33000000	1571428.57	
+

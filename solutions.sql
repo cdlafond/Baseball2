@@ -14,7 +14,8 @@ GROUP BY
 	batting.yearid
 ORDER BY
 	AVG(people.weight) 
-	DESC;
+	DESC
+LIMIT 5;
 
 -- Shortest Sluggers
 
@@ -32,7 +33,8 @@ GROUP BY
 	batting.yearid
 ORDER BY 
 	AVG(people.height) 
-	ASC;
+	ASC
+	LIMIT 5;
 
 -- Biggest Spenders
 
@@ -49,7 +51,8 @@ GROUP BY
 	salaries.yearid
 ORDER BY
 	SUM(salary) 
-	DESC;
+	DESC
+	LIMIT 5;
 
 -- Most Bang For Their Buck
 
@@ -69,7 +72,8 @@ GROUP BY
 	teams.w
 ORDER BY 
 	SUM(salary)/teams.w 
-	ASC;
+	ASC
+	LIMIT 5;
 
 -- Priciest Starters
 

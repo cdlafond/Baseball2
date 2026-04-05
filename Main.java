@@ -18,24 +18,36 @@ public class Main {
         // output .txt file for us to write to
         try (Connection conn = DriverManager.getConnection(url,user,password);
                 Statement stmt = conn.createStatement();
-                ResultSet rs = stmt.executeQuery(query);
                 PrintWriter writer = new PrintWriter("results.txt")) {
             
-            ResultSetMetaData meta = rs.getMetaData();
-            int cols = meta.getColumnCount();
+            // checking if results exist from query and initiating a while loop to print those
+            // results out for each query result returned
+            boolean hasResult = stmt.execute(query);
+            int resultSet = 0;
+            
+            while(hasResult){
+                resultSet++;
+                writer.println("--- Part 3 Query " + resultSet + " ---");
 
-            // writing header
-            for (int i = 1; i <= cols; i++){
-                writer.print(meta.getColumnName(i) + "\t");
-            }
-            writer.println();
+                ResultSet rs = stmt.getResultSet();
+                ResultSetMetaData meta = rs.getMetaData();
+                int cols = meta.getColumnCount();
 
-            // writing rows
-            while (rs.next()){
+                // writing header
                 for (int i = 1; i <= cols; i++){
-                    writer.print(rs.getString(i) + "\t");
+                    writer.print(meta.getColumnName(i) + "\t");
                 }
                 writer.println();
+
+                // writing rows
+                while (rs.next()){
+                    for (int i = 1; i <= cols; i++){
+                        writer.print(rs.getString(i) + "\t");
+                    }
+                    writer.println();
+                }
+                writer.println();
+                hasResult = stmt.getMoreResults();
             }
         }  // exception handled at main lvl
 
