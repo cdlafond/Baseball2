@@ -29,3 +29,7 @@
     is not a real problem. I needed 1 .jar file added to a /lib directory for java to speak SQL... 
     Learnings: AI is going to over complicate and over engineer a lot of stuff, you have to be careful and really pay 
     attention to what it's outputting or suggesting.
+
+- The queries themselves were easy, however it did demonstrate how clear and detailed documentation can make a task 
+    signifigantly easier & faster. having both the data description AND data type would have been nice in the readme.txt
+    My experience with queries in google sheets signifigantly assisted with this task. 
