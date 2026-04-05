@@ -1,0 +1,31 @@
+## A location of thoughts and learnings from running this project:
+
+- The basic challenge in the assignment is to create and localy host a 
+    postgreSQL database, and build out queries to match a list of required
+    outputs, like furthest average hitter, fastest pitcher, etc. 
+- I'd like to challenge myself with this challenge by implementing more than
+    just a simple SQL query, I'd like to integrate using Java to initiate that
+    query and write the results to a .txt file
+- I'd like to do a validation against solutions.sql output to see if my
+    results match the output of their queries.
+
+## java QueryRunner build
+
+- Many struggles setting up the infrastructure to use java to make SQL query calls to the DB
+- Longest struggle was getting the JDBC driver to communicate with the project. I feel like VS code was the blocker here
+    on the last project I used Intellij, and I decided to try VS code with this project. The extension infrastructure is
+    nice to play with, and makes a lot of actions very easy and intuitive, but having a bunch of settings and integrations
+    jammed deep in some extension somewhere made troubleshooting difficult. So far I've been enjoying Intellij more, the
+    formatting, autocomplete, settings menues, and integration with claudecode all feel smoother in Intellij at this point.
+- On suggestion purely from claudecode, I used Maven as a build feature to compile the code to communicate with JDBC, I'm
+    unsure if I feel like this was the smart choice, or if just compiling via the terminal would have been a better route. 
+    It FEELS like I've just cluttered up the repository using Maven, but I suspect that's user error because I selected the
+    wrong host folder or folder structure or something like that, simply because I'm unfamiliar with the tool at this time.
+- I've built a basic connection that takes one query and outputs that to results.txt. I'll have to update the QueryRunner
+    to accept multiple queries and output the results correctly, but I feel like this was a smart step 1.
+
+- Absolutly abandoned the 'Maven' project. What a disaster. Nothing but problems with what directory the individual files
+    were located in, duplicating files and directories. All a completely unnecesary and over engineered solution to what 
+    is not a real problem. I needed 1 .jar file added to a /lib directory for java to speak SQL... 
+    Learnings: AI is going to over complicate and over engineer a lot of stuff, you have to be careful and really pay 
+    attention to what it's outputting or suggesting.
